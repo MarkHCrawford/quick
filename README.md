@@ -8,7 +8,7 @@
 
 
 ### Details
-Mark Crawford 
-For Professor Lucci's Algorithms Class 
-City College of New York 
+Mark Crawford  
+For Professor Lucci's Algorithms Class    
+City College of New York    
 Fall, 2024 
