@@ -36,3 +36,31 @@ def quick_sort(data, head, tail,
             partition_index = partition(data, head,
                                         tail, draw_d, time_t)
             
+            quick_sort(data, head, partition_index - 1, draw_d, time_t)
+
+            quick_sort(data, partition_index + 1, tail, draw_d, time_t)
+
+
+def getColorArray(data_l, head, tail, border, curr_index, swapping = False):
+     color_array = []
+     for i in range(data_l):
+        if i >= head and i <= tail:
+            color_array.append('grey')
+        else:
+            color_array.append('white')
+
+        if i == tail:
+            color_array[i] = 'blue'
+        elif i == border:
+            color_array[i] = 'red'
+        elif i == curr_index:
+            color_array[i] = 'yellow'
+        
+        if swapping:
+            if i == border or i == curr_index:
+                color_array[i] = 'green'
+     return color_array
+        
+                    
+            
+            
