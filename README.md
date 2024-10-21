@@ -12,3 +12,7 @@ Mark Crawford
 For Professor Lucci's Algorithms Class    
 City College of New York    
 Fall, 2024 
+
+### Update  
+- Added CPP quicksort
+- Added Jupyter Notebooks in submission folder
